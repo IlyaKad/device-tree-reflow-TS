@@ -34,6 +34,9 @@ These instructions will get you a copy of the project and running on your local 
     - `npm run initClient`
     - then go to http://localhost:8080/
 
+    - if you have problem go to `cd .\node_modules\@mcesystems\reflow-react-display-layer\` and `npm i`
+    - then go back to *device-tree-client* folder and `npm start`
+
 ## App screenshots
 
 ![By USB Hubs](device-tree-client/img/readme/By-USB-hub.JPG "By USB Hubs")
