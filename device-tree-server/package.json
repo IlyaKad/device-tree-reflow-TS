@@ -5,7 +5,8 @@
   "main": "server.ts",
   "scripts": {
     "start": "nodemon",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "initServer": "npm start",
+    "preinitServer": "npm i"
   },
   "keywords": [],
   "author": "IlyaK",

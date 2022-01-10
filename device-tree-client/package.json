@@ -5,6 +5,8 @@
 	"description": "",
 	"main": "dist/index",
 	"scripts": {
+    "preinitClient": "npm i",
+    "initClient": "npm start",
     "build": "tsc",
 		"prepublish": "npm run build",
 		"start": "webpack-dev-server"

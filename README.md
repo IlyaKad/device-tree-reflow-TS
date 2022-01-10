@@ -3,17 +3,14 @@
 ## Description
 
 Client + Server solution that presents a live (with updates of connected and disconnected devices) tree of the devices connected via USB to the server's machine.
-First tab defined in such a way that a USB hub is a branch, and a device is a leaf.
-Second Tab grouping the devices by type.
+Build with @MCE lib: reflow.
 
 ## Technology Wise
 
 Technologies used in this project:
 
-- React.js
-- React Hooks ( useState, useEffect)
+- Reflow
 - Axios (Rest API)
-- Ant Design (React UI library)
 - Node.js
 - Express.js
 - usb-detections
@@ -23,7 +20,7 @@ Technologies used in this project:
 
 These instructions will get you a copy of the project and running on your local machine for development and testing purposes.
 
-- run `git clone https://github.com/IlyaKad/device-tree-exercise.git`
+- run `git clone https://github.com/IlyaKad/device-tree-reflow-TS.git`
 
   or
 
@@ -35,8 +32,8 @@ These instructions will get you a copy of the project and running on your local 
   - open new Command Prompt
     - `cd device-tree-client`
     - `npm run initClient`
+    - then go to http://localhost:8080/
 
 ## App screenshots
 
-![By USB Hubs](device-tree-client/img/About-screenshots/By-USB-hub.JPG "By USB Hubs")
-![By Type](device-tree-client/img/About-screenshots/By-type.JPG "By Type")
+![By USB Hubs](device-tree-client/img/readme/By-USB-hub.JPG "By USB Hubs")
